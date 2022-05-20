@@ -134,3 +134,24 @@ a {
 }
 
 /* QUOTE */
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 100px 70px 100px;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.quote > h4 {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: end;
+}
