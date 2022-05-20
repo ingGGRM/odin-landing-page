@@ -53,15 +53,16 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
-    padding: 20px 100px 20px 100px;
+    padding: 100px 100px 100px 100px;
     gap: 50px;
 }
 
-.hero-info {
+.hero-info {flex: 1 1 0;}
+
+.hero-info > h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: extra-bold;
-    flex: 1 1 0;
 }
 
 .hero-info > p {
