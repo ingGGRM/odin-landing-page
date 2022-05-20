@@ -57,7 +57,12 @@ a {
     gap: 50px;
 }
 
-.hero-info {flex: 1 1 0;}
+.hero-info {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .hero-info > h1 {
     color: #f9faf8;
@@ -78,6 +83,7 @@ a {
     border-radius: 7px;
     border-style: none;
     padding: 5px 10px 5px 10px;
+    width: 100px;
 }
 
 .hero-image {
@@ -92,3 +98,39 @@ a {
 
 /* INFORMATION BLOCK */
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px 100px 100px;
+    gap: 50px;
+}
+
+.information > h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-card {
+    flex: 0 1 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #343536;
+    font-size: 18px;
+}
+
+.info-square {
+    height: 200px;
+    border: 3px solid #537dc2;
+    border-radius: 10px;
+}
+
+/* QUOTE */
