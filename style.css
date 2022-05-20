@@ -21,7 +21,6 @@ body {
 /* HEADER */
 
 .header {
-    width: 100%;
     display: flex;
     padding: 20px 100px 20px 100px;
     color: #f9faf8;
@@ -188,4 +187,17 @@ a {
     padding: 5px 5px 5px 5px;
     margin-left: auto;
     width: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+
+    display: flex;
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+    justify-content: center;
 }
